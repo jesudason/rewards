@@ -1,3 +1,4 @@
+
 var studyTopic;
 var messages;
 var colors = ["#f5a7ff", "#feffa0", "#b5ffaf", "#a6ddff", "#cb9aff" ];
@@ -83,9 +84,14 @@ for (var i = 0; i < 961; i++) {
 }
 $('.square').mouseover(function() {
 		$(this).addClass('clicked')
-		console.log(this)
 });
 
 $('.heart').mouseover(function() {
 	$(this).css('background', 'red')
-})
+});
+
+
+
+
+
+

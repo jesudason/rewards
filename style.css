@@ -1,6 +1,6 @@
 body {
 	font-family: 'Josefin Slab', serif;
-	background-color: #feffa0;
+	background-color: #aec4e0;
 	margin: 0;
 
 }
@@ -69,7 +69,7 @@ div {
 	background-color: red;
 }
 .square:hover, .clicked {
-	background-color: lightsteelblue;
+	background-color: #edf1f8;
 }
 
 .container {
@@ -78,4 +78,38 @@ div {
 	flex-direction: row;
 	flex-flow: wrap;
 	width: 434px;
+}
+
+.input-field {
+  -webkit-transition: all 0.30s ease-in-out;
+  -moz-transition: all 0.30s ease-in-out;
+  -ms-transition: all 0.30s ease-in-out;
+  -o-transition: all 0.30s ease-in-out;
+  outline: none;
+  padding: 3px 0px 3px 3px;
+  margin: 5px 1px 3px 0px;
+  border: 1px solid #DDDDDD;
+}
+ 
+input:focus {
+  box-shadow: 0 0 10px lightsteelblue;
+  padding: 5px 0px 5px 5px;
+  margin: 5px 1px 3px 0px;
+  border: 1.5px solid lightsteelblue;
+}
+
+button {
+	border-radius: 5px;
+	background: linear-gradient(white,#b0b0de);
+
+}
+
+button:hover {
+	background: linear-gradient(#b0b0de,white);
+}
+
+button:active {
+ 	box-shadow: 0 5px lightsteelblue;
+	transform: translateY(4px);
+ 	border-radius: 5px; 
 }
