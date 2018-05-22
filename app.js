@@ -9,7 +9,9 @@ var gifs = ['https://media2.giphy.com/media/KcmhtjgAAnuoM/200w.webp', 'https://m
 	'https://media.giphy.com/media/uX4jVwE5tP35C/giphy.gif',
 	'https://media.giphy.com/media/dYDONC0npkCT6/giphy.gif',
 	'https://media.giphy.com/media/ryQDjtPSPfgeA/giphy.gif',
-	'https://media.giphy.com/media/tENMWKP1liXvO/giphy.gif'
+	'https://media.giphy.com/media/tENMWKP1liXvO/giphy.gif',
+	'https://media.giphy.com/media/hqbVmiEpAhfhe/giphy.gif',
+	'https://media.giphy.com/media/KVlCVET2KEfrq/giphy.gif'
 ];
 
 var backgroundColor = '#b5ffaf';
