@@ -3,15 +3,7 @@ var studyTopic;
 var messages;
 var colors = ["#f5a7ff", "#feffa0", "#b5ffaf", "#a6ddff", "#cb9aff" ];
 
-var gifs = ['https://media2.giphy.com/media/KcmhtjgAAnuoM/200w.webp', 'https://media3.giphy.com/media/3ohc0WRlZ9YKJ8slpu/200w.webp', 'https://media0.giphy.com/media/htK5T83ptmn3G/200w.webp', 'https://media.giphy.com/media/mkZ78JB74isVO/giphy.gif', 'https://media.giphy.com/media/gxRtSPjkXgdR6/giphy.gif', 'https://media.giphy.com/media/11Im1l1hlDI1MI/giphy.gif', 'https://media.giphy.com/media/28dsTilfXThPa/giphy.gif', 'https://media.giphy.com/media/m2R4N23c1Y0Y8/giphy.gif', 'https://media.giphy.com/media/14vJZ6MnRvBaJa/giphy.gif',
-	'https://media.giphy.com/media/LHppJaeqcocmY/giphy.gif',
-	'https://media.giphy.com/media/Xoy7nxdABUOCQ/giphy.gif',
-	'https://media.giphy.com/media/uX4jVwE5tP35C/giphy.gif',
-	'https://media.giphy.com/media/dYDONC0npkCT6/giphy.gif',
-	'https://media.giphy.com/media/ryQDjtPSPfgeA/giphy.gif',
-	'https://media.giphy.com/media/tENMWKP1liXvO/giphy.gif',
-	'https://media.giphy.com/media/hqbVmiEpAhfhe/giphy.gif',
-	'https://media.giphy.com/media/KVlCVET2KEfrq/giphy.gif'
+var gifs = ['https://media2.giphy.com/media/KcmhtjgAAnuoM/200w.webp', 'https://media3.giphy.com/media/3ohc0WRlZ9YKJ8slpu/200w.webp', 'https://media0.giphy.com/media/htK5T83ptmn3G/200w.webp', 'https://media.giphy.com/media/mkZ78JB74isVO/giphy.gif', 'https://media.giphy.com/media/gxRtSPjkXgdR6/giphy.gif', 'https://media.giphy.com/media/11Im1l1hlDI1MI/giphy.gif', 'https://media.giphy.com/media/28dsTilfXThPa/giphy.gif', 'https://media.giphy.com/media/m2R4N23c1Y0Y8/giphy.gif', 'https://media.giphy.com/media/14vJZ6MnRvBaJa/giphy.gif','https://media.giphy.com/media/LHppJaeqcocmY/giphy.gif', 'https://media.giphy.com/media/Xoy7nxdABUOCQ/giphy.gif', 'https://media.giphy.com/media/uX4jVwE5tP35C/giphy.gif', 'https://media.giphy.com/media/dYDONC0npkCT6/giphy.gif', 'https://media.giphy.com/media/ryQDjtPSPfgeA/giphy.gif',	'https://media.giphy.com/media/tENMWKP1liXvO/giphy.gif', 'https://media.giphy.com/media/hqbVmiEpAhfhe/giphy.gif',	'https://media.giphy.com/media/KVlCVET2KEfrq/giphy.gif'
 ];
 
 var backgroundColor = '#b5ffaf';
