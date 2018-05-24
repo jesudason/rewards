@@ -24,13 +24,8 @@ $('#reward-btn').click(function() {
 	studyTopic = $('#study-topic')
 	messages = [
 		`you are so good at ${studyTopic.val()}`, 
-		`it's a real turn on when you study ${studyTopic.val()}`, 
-		`the more you work on ${studyTopic.val()} the more i'm into you`, 
 		`you deserve a break from ${studyTopic.val()}! why not call nicole?`, 
 		"you look really good today", 
-		"everyone who knows you loves you", 
-		`the thought of you studying ${studyTopic.val()} drives me wild`, 
-		"all of my smiles today are because of you", 
 		"you make the world a sunnier place", 
 		`${studyTopic.val()} is dope and so are you`
 		]
